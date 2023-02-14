@@ -1,0 +1,36 @@
+/* this sets the poisiton and size of the map on the webpage */
+.map {
+    position: absolute;
+    top: 120px; ;
+    bottom: 5px;
+    width: 100%;
+    margin-left: auto
+   }
+/* Styling for header 1  */
+.h1{text-align: center; 
+    font-family: "Times New Roman";
+    color:#04AA6D;;
+    font-size: 15px; }
+/* Styling for navigation */
+.topnav {text-align: left;
+    overflow: hidden;
+        background-color: #333;
+      }
+      .topnav a {
+        float: left;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+      }
+      
+      .topnav a:hover {
+        background-color: #ddd;
+        color: black;
+      }
+      
+      .topnav a.active {
+        background-color: #04AA6D;
+        color: white;
+      }
